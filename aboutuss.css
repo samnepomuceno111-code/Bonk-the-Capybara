@@ -55,7 +55,7 @@ h1 {
   color: #5c4033;
   font-size: 15px;
   padding: 10px;
-    max-width: 45px;
+    max-width: 200px;
 }
 .btn-outline-secondary:hover {
   background-color: #5c4033;
@@ -128,5 +128,6 @@ button {
   cursor: none;
 
 }
+
 
 
