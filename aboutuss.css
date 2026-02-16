@@ -1,0 +1,117 @@
+body {
+    font-family: "Caveat", cursive;
+    user-select: none;
+    cursor: none;
+    background-image: url("bg.png.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h3 {
+    color: #5c4033;
+    font-weight: bold;
+}
+
+h1 {
+    color: #5c4033;
+    font-weight: bold;
+}
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(135deg, #fff8e7, #ffe4b5);
+  border-bottom: 3px solid #5c4033;
+  font-family: "Caveat", cursive;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #5c4033;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  border-radius: 8px;
+  margin: 5px 3px;
+}
+
+.topnav a:hover {
+  background-color: #5c4033;
+  color: #fff;
+}
+
+.topnav a.active {
+  background-color: #8C5B3F;
+  color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background: linear-gradient(135deg, #fff8e7, #ffe4b5);
+    border: 3px solid #5c4033;
+    padding: 20px;
+    width: 260px;
+    border-radius: 12px;
+    transition: 0.3s;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.team-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card {
+  background: linear-gradient(135deg, #fff8e7, #ffe4b5);
+  border: 3px solid #5c4033;
+  border-radius: 15px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.card h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #5c4033;
+}
+
+.card ul {
+  list-style-type: "☕︎  ";
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+#hammer {
+  width: 90px;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+#hammer.hit {
+  transform: rotate(-40deg) scale(0.9);
+}
+
+button {
+  cursor: none;
+}
