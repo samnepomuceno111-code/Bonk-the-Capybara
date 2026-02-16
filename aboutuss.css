@@ -2,7 +2,7 @@ body {
     font-family: "Caveat", cursive;
     user-select: none;
     cursor: none;
-    background-image: url("../Bonk-the-Capybara/images/bg.png.png");
+    background-image: url("../Bonk-the-Capybara/images/bg2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;  
@@ -116,3 +116,4 @@ button {
   cursor: none;
 
 }
+
