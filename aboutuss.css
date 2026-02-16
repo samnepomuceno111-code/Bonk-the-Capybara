@@ -15,6 +15,11 @@ h3 {
     font-weight: bold;
 }
 
+h2 {
+    color: #5c4033;
+    font-weight: bold;
+}
+
 h1 {
     color: #5c4033;
     font-weight: bold;
@@ -130,6 +135,7 @@ button {
   cursor: none;
 
 }
+
 
 
 
