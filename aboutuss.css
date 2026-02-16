@@ -21,10 +21,10 @@ h1 {
 }
 
 .topnav {
-  overflow: hidden;
-  background: linear-gradient(135deg, #fff8e7, #ffe4b5);
-  border-bottom: 3px solid #5c4033;
-  font-family: "Caveat", cursive;
+      overflow: hidden;
+      background: linear-gradient(135deg, #fff8e7, #ffe4b5);
+      border-bottom: 3px solid #5c4033;
+      font-family: "Caveat", cursive;
 }
 
 .topnav a {
@@ -48,6 +48,18 @@ h1 {
 .topnav a.active {
   background-color: #8C5B3F;
   color: white;
+}
+
+.btn-outline-secondary {
+  border-color: #5c4033;
+  color: #5c4033;
+  font-size: 15px;
+  padding: 10px;
+    max-width: 45px;
+}
+.btn-outline-secondary:hover {
+  background-color: #5c4033;
+  border-color: #5c4033;
 }
 
 .cards {
@@ -116,4 +128,5 @@ button {
   cursor: none;
 
 }
+
 
