@@ -1,0 +1,155 @@
+body {
+    font-family: "Caveat", cursive;
+    cursor: none;
+    user-select: none;
+    background-image: url("bg.png.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+h3 {
+    color: #5c4033;
+    font-weight: bold;
+}
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(135deg, #fff8e7, #ffe4b5);
+  border-bottom: 3px solid #5c4033;
+  font-family: "Caveat", cursive;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #5c4033;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  border-radius: 8px;
+  margin: 5px 3px;
+}
+
+.topnav a:hover {
+  background-color: #5c4033;
+  color: #fff;
+}
+
+.topnav a.active {
+  background-color: #8C5B3F;
+  color: white;
+}
+
+.card {
+  background: linear-gradient(135deg, #fff8e7, #ffe4b5);
+  border: 3px solid #5c4033;
+  border-radius: 15px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #5c4033;
+}
+
+.card ul {
+  list-style-type: "☕︎  ";
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+#startBtn {
+  background: linear-gradient(125deg, #5c4033, #ffe4b5);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: bold;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+}
+
+#startBtn:hover {
+  transform: scale(1.08);
+  box-shadow:
+    0 0 15px #5c4033,
+    0 0 30px #ffe4b5,
+    0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+#startBtn:active {
+  transform: scale(0.95);
+}
+
+#game {
+    width: 640px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 3px solid #8C5B3F;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #fff8e7, #ffe4b5);   
+    box-sizing: border-box;
+    margin-top: 45px;
+    margin-bottom: 45px;    
+}
+
+#game:hover {
+    border-color: #593622;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.hole {
+    width: 170px;
+    height: 50px;
+    background-image: url("hole.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: visible;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.hole img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -180px;
+  max-width: 95px;
+  height: auto;
+  transition: bottom 0.25s ease-out;
+  pointer-events: auto;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: -10px;
+  box-sizing: content-box;
+}
+
+.hole img.show {
+  bottom: 35px;
+}
+
+#hammer {
+  width: 90px;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+#hammer.hit {
+  transform: rotate(-40deg) scale(0.9);
+}
+
+button {
+  cursor: none;
+}
