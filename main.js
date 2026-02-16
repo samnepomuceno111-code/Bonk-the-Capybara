@@ -11,7 +11,7 @@ var timerDisplay = document.getElementById("time");
 var bonkButton = document.getElementById("startBtn");
 
 var bonkStick = document.createElement("img");
-bonkStick.src = "hammer.png";
+bonkStick.src = "../Bonk-the-Capybara/images/hammer.png";
 bonkStick.id = "hammer";
 document.body.appendChild(bonkStick);
 
@@ -42,10 +42,10 @@ function chaosMaker() {
   var chaosObject = document.createElement("img");
 
   if (chaosChance < 0.8) {
-    chaosObject.src = "mole.png";
+    chaosObject.src = "../Bonk-the-Capybara/images/mole.png";
     chaosObject.className = "mole";
   } else {
-    chaosObject.src = "bomb.png";
+    chaosObject.src = "../Bonk-the-Capybara/images/bomb.png";
     chaosObject.className = "bomb";
   }
 
@@ -124,4 +124,5 @@ function clearTheArena() {
       singleHole.removeChild(singleHole.firstChild);
     }
   }
+
 }
